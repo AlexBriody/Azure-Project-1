@@ -1,4 +1,4 @@
-# Azure-Project-1
+# Azure-Project-1: ELK Stack
 
 ## Automated ELK Stack Deployment
 
