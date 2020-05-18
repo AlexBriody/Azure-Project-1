@@ -31,7 +31,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metric beat records machine metrics, such as the uptime.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name       | Function         | IP Address    | Operating System |
 |------------|------------------|---------------|------------------|
@@ -64,9 +63,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - The main advantage of automating configuration with Ansible is the speed by which you can deploy the ELK Server.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Install Docker
+- Install Python-PIP
+- Install Docker Python Module
+- Increase Virtual Memory
+- Download and Launch A Docker Elk Container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
