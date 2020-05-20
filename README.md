@@ -93,4 +93,4 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include [elkservers] and its ip address (private)
 - Run the playbook, and navigate to /etc/ansible/roles/ to check that the installation worked as expected.
 
-
+https://drive.google.com/open?id=1Qouc0onlpBk30-FQ7PFE_GnNPHdFJiNM
